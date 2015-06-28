@@ -5,7 +5,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Shortcuts
-alias dev="cd ~/dev"
+alias dev="cd ~/Dev"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
