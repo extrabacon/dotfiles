@@ -5,7 +5,7 @@ cp .* ~/
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install formulas
-brew install brew-cask
+brew install caskroom/cask/brew-cask
 brew install imagemagick --with-webp
 brew install git
 brew install heroku-toolbelt
