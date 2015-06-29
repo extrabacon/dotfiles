@@ -1,6 +1,3 @@
-# Copy dotfiles
-cp .* ~/
-
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -16,6 +13,9 @@ brew install watchman
 brew install rename
 brew install speedtest-cli
 brew install tree
+brew install s3cmd
+brew install httpie
+brew install siege
 
 # Install apps
 brew cask install alfred
@@ -28,6 +28,7 @@ brew cask install rdio
 brew cask install skype
 brew cask install spectacle
 brew cask install vlc
+brew cask install keycastr
 
 # Install node packages
 npm install -g bower
