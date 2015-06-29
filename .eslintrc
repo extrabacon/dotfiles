@@ -4,7 +4,7 @@
   },
   "rules": {
     "strict": 0,
-    "camelcase": 1,
+    "camelcase": [1, {"properties": "never"}],
     "curly": [2, "multi-line"],
     "quotes": [1, "single"],
     "no-shadow": 0,
@@ -13,6 +13,7 @@
     }],
     "no-underscore-dangle": 0,
     "no-use-before-define": 0,
+    "no-unused-expressions": 0,
     "space-after-keywords": 1,
     "space-before-blocks": 1,
     "space-before-function-paren": [1, {
