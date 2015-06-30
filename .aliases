@@ -35,8 +35,11 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
-# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm install npm -g; npm update -g; apm update; sudo gem update --system; sudo gem update'
+# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, Atom and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm update npm -g; npm update -g; apm update; sudo gem update --system; sudo gem update'
+
+# Update dotfiles
+alias dotfiles='cd ~/Dev/dotfiles; git pull origin; ./copy_dotfiles.sh; reload'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
