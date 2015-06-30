@@ -5,6 +5,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install caskroom/cask/brew-cask
 brew install imagemagick --with-webp
 brew install git
+brew install git-flow
+brew install bash-completion
 brew install heroku-toolbelt
 brew install mongodb
 brew install node.js
@@ -55,3 +57,6 @@ brew cask install webpquicklook
 ln -s /usr/local/Cellar ~/Dev/Cellar
 ln -s /opt/homebrew-cask/Caskroom ~/Dev/Caskroom
 ln -s /usr/local/lib/node_modules ~/Dev/node_modules
+
+# Cleanup
+brew cleanup
