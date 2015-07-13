@@ -2,6 +2,7 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install formulas
+brew tap homebrew/services
 brew install caskroom/cask/brew-cask
 brew install imagemagick --with-webp
 brew install git
