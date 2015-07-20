@@ -64,3 +64,7 @@ ln -s /usr/local/lib/node_modules ~/Dev/node_modules
 
 # Cleanup
 brew cleanup
+
+# Initial config
+git config --global user.name 'Nicolas Mercier'
+git config --global user.email 'nicolas@extrabacon.net'
