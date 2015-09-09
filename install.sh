@@ -8,13 +8,14 @@ brew install imagemagick --with-webp
 brew install git
 brew install git-flow
 brew install bash-completion
-brew install heroku-toolbelt
 brew install mongodb
 brew install node.js
+brew install ruby
 brew install flow
 brew install watchman
 brew install rename
 brew install speedtest-cli
+brew install heroku-toolbelt
 brew install tree
 brew install s3cmd
 brew install httpie
@@ -27,7 +28,6 @@ brew cask install dropbox
 brew cask install firefox
 brew cask install github
 brew cask install google-drive
-brew cask install rdio
 brew cask install skype
 brew cask install spectacle
 brew cask install vlc
@@ -46,6 +46,10 @@ npm install -g nodemon
 npm install -g react-native-cli
 npm install -g gulp
 npm install -g grunt-cli
+
+# Ruby gems
+gem install foreman
+gem install sass
 
 # Extensions
 brew cask install qlcolorcode
