@@ -36,6 +36,7 @@ brew cask install keycastr
 # Install node packages
 npm install -g bower
 npm install -g eslint
+npm install -g babel-eslint
 npm install -g eslint-plugin-react
 npm install -g istanbul
 npm install -g mocha
@@ -50,6 +51,7 @@ npm install -g grunt-cli
 # Ruby gems
 gem install foreman
 gem install sass
+gem install scss_lint
 
 # Extensions
 brew cask install qlcolorcode
