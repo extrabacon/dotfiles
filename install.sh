@@ -47,6 +47,7 @@ npm install -g nodemon
 npm install -g react-native-cli
 npm install -g gulp
 npm install -g grunt-cli
+npm install -g mversion
 
 # Ruby gems
 gem install foreman
