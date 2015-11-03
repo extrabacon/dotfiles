@@ -41,12 +41,12 @@ npm install -g eslint-plugin-react
 npm install -g istanbul
 npm install -g mocha
 npm install -g n
-npm install -g nightwatch
 npm install -g node-inspector
 npm install -g nodemon
 npm install -g react-native-cli
 npm install -g gulp
 npm install -g grunt-cli
+npm install -g webpack
 npm install -g mversion
 
 # Ruby gems
