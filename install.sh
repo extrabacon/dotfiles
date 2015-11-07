@@ -53,6 +53,7 @@ npm install -g mversion
 gem install foreman
 gem install sass
 gem install scss_lint
+gem install dotenv
 
 # Extensions
 brew cask install qlcolorcode
