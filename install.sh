@@ -9,7 +9,7 @@ brew install git
 brew install git-flow
 brew install bash-completion
 brew install mongodb
-brew install node.js
+brew install node
 brew install ruby
 brew install flow
 brew install watchman
@@ -33,16 +33,15 @@ brew cask install spectacle
 brew cask install vlc
 brew cask install keycastr
 
+# Install NVM
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
+
 # Install node packages
-npm install -g bower
-npm install -g eslint
-npm install -g babel-eslint
-npm install -g eslint-plugin-react
-npm install -g istanbul
-npm install -g mocha
-npm install -g n
-npm install -g node-inspector
 npm install -g nodemon
+npm install -g node-inspector
+npm install -g mocha
+npm install -g bower
+npm install -g eslint eslint-plugin-react babel-eslint
 npm install -g react-native-cli
 npm install -g gulp
 npm install -g grunt-cli
