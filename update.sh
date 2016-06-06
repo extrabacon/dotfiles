@@ -16,6 +16,3 @@ npm update npm -g
 npm update -g
 
 apm upgrade --no-confirm
-
-gem update --system
-gem update
