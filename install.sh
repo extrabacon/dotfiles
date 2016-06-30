@@ -10,6 +10,7 @@ brew install git-flow
 brew install bash-completion
 brew install mongodb
 brew install node
+brew install python
 brew install ruby
 brew install flow
 brew install watchman
@@ -47,6 +48,9 @@ npm install -g gulp
 npm install -g grunt-cli
 npm install -g webpack
 npm install -g mversion
+
+# Pip packages
+pip install aws
 
 # Ruby gems
 gem install foreman
