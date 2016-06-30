@@ -12,7 +12,6 @@ brew update
 brew upgrade --all
 brew cleanup
 
-npm update npm -g
 npm update -g
 
 apm upgrade --no-confirm
