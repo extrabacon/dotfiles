@@ -42,12 +42,12 @@ npm install -g nodemon
 npm install -g node-inspector
 npm install -g mocha
 npm install -g bower
-npm install -g eslint eslint-plugin-react babel-eslint
 npm install -g react-native-cli
 npm install -g gulp
 npm install -g grunt-cli
-npm install -g webpack
 npm install -g mversion
+npm install -g imagemin-cli
+npm install -g yo
 
 # Pip packages
 pip install aws
