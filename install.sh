@@ -48,6 +48,7 @@ npm install -g grunt-cli
 npm install -g mversion
 npm install -g imagemin-cli
 npm install -g yo
+npm install -g eslint babel-eslint
 
 # Pip packages
 pip install aws
