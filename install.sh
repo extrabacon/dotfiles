@@ -21,6 +21,8 @@ brew install tree
 brew install s3cmd
 brew install httpie
 brew install siege
+brew install java
+brew install android
 
 # Install apps
 brew cask install alfred
