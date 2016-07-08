@@ -15,3 +15,6 @@ brew cleanup
 npm update -g
 
 apm upgrade --no-confirm
+
+sudo gem update --system
+sudo gem update
