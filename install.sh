@@ -29,7 +29,7 @@ brew cask install alfred
 brew cask install atom
 brew cask install dropbox
 brew cask install firefox
-brew cask install github
+brew cask install github-desktop
 brew cask install google-drive
 brew cask install skype
 brew cask install spectacle
@@ -37,7 +37,7 @@ brew cask install vlc
 brew cask install keycastr
 
 # Install NVM
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 
 # Install node packages
 npm install -g nodemon
