@@ -9,7 +9,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 softwareupdate -i -a
 
 brew update
-brew upgrade --all
+brew upgrade
 brew cleanup
 
 npm update -g

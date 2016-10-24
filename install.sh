@@ -30,6 +30,7 @@ brew cask install atom
 brew cask install dropbox
 brew cask install firefox
 brew cask install github-desktop
+brew cask install google-chrome
 brew cask install google-drive
 brew cask install skype
 brew cask install spectacle
@@ -51,6 +52,7 @@ npm install -g mversion
 npm install -g imagemin-cli
 npm install -g yo
 npm install -g eslint babel-eslint
+npm install -g npm-check-updates
 
 # Pip packages
 pip install aws
@@ -61,7 +63,7 @@ gem install sass
 gem install scss_lint
 gem install dotenv
 
-# Extensions
+# QuickView plugins
 brew cask install qlcolorcode
 brew cask install qlstephen
 brew cask install qlmarkdown
