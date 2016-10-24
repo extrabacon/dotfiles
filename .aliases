@@ -59,7 +59,7 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
 # Switch DNS
-if networksetup -listnetworkserviceorder | grep '(1) Ethernet'; then
+if networksetup -listnetworkserviceorder | grep '(1) Ethernet' > /dev/null 2>&1; then
 	alias googledns="networksetup -setdnsservers Ethernet 8.8.8.8 8.8.4.4"
 	alias unblockerdns="networksetup -setdnsservers Ethernet 64.145.73.5 209.107.219.5"
 	alias resetdns="networksetup -setdnsservers Ethernet empty"
